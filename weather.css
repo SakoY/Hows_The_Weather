@@ -1,0 +1,61 @@
+html{
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+body{
+  background: url('images/back.jpg') no-repeat center center fixed;
+  background-color: transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width:750px;
+}
+
+#titlebg{
+  color: white;
+  background-color: #006dcc;
+  padding: 10px;
+  border-radius:20px;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.load{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/ring.gif) center no-repeat black;
+}
+
+#acenter{
+  text-align: center;
+  margin:200px;
+}
+
+#city{
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+#go{
+  margin-bottom: 20px;
+
+}
+
+#citybox{
+  text-align: center;
+}
+
+p{
+  color: white;
+}
